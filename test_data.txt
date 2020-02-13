@@ -1,0 +1,29 @@
+Tilinumero	FI1234567890123456
+
+Kirjauspäivä	Arvopäivä	Maksupäivä	Määrä	Saaja/Maksaja	Tilinumero	BIC	Tapahtuma	Viite	Maksajan viite	Viesti	Kortinnumero	Kuitti	
+
+02.01.2020	02.01.2020	02.01.2020	-120,00	AAAAA AAAAAAA AAAAA	123456-789012	NDEAFIHHXXX	Itsepalvelu			aaaaaaaa aaaaa 			
+
+02.01.2020	02.01.2020	02.01.2020	20,00	BBBBBBBBBBÄ BBBBB BBBBBÖ			Tilisiirto			gggggggggg 			
+
+02.01.2020	02.01.2020	02.01.2020	5,00	CCCCCCCC CCCC-CCCC CCCCCCCC			Pano		NOTPROVIDED	Uuuuuuuuu 		E	
+
+07.01.2020	07.01.2020	07.01.2020	25,00	DDDDDDD DDDDD DDDDDDD DDÈ			Pano		NOTPROVIDED	gggggggggg ddddddd dddddd 		E	
+
+13.01.2020	13.01.2020	13.01.2020	5,00	ÅÄÖÅÄÖÅ ÅÄÖÅÄÖ ÅÄÖ ÅÄÖÅÄ			Pano			xxxxxx xxx xxxxxxxxx xxx xxxxxxxxxxx xxxxxxx 			
+
+17.01.2020	17.01.2020	17.01.2020	15,00	ÄÄÄÄÄ ÄÄ ÄÄÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄ			Tilisiirto			yyy yyyyyy yyyyyyyyy yyy 			
+
+20.01.2020	20.01.2020	20.01.2020	5,00	ÅÄÖÅÄÖÅ ÅÄÖÅÄÖ ÅÄÖ ÅÄÖÅÄ			Pano			zzz zzzzzzz zz zzzzzzzzzz 			
+
+30.01.2020	30.01.2020	30.01.2020	20,00	EEEE EEEEEE EE			Pano		NOTPROVIDED	gggggggggg gggg ggg, ggggggg gggggg 		E	
+
+31.01.2020	31.01.2020	31.01.2020	20,00	FF-FFFF FFFF			Pano		NOTPROVIDED			E	
+
+03.02.2020	03.02.2020	03.02.2020	-120,00	AAAAA AAAAAAA AAAAA	123456-789012	NDEAFIHHXXX	Itsepalvelu			aaaaaaaa aaaaa 			
+
+03.02.2020	03.02.2020	03.02.2020	20,00	BBBBBBBBBBÄ BBBBB BBBBBÖ			Tilisiirto			gggggggggg 			
+
+03.02.2020	03.02.2020	03.02.2020	10,00	ÅÄÖÅÄÖÅ ÅÄÖÅÄÖ ÅÄÖ ÅÄÖÅÄ			Pano			xxx xxxxxxxx xxx xxxxxxxxxxxxxx xxxxxx xx xxxxx xxxxx xxxxxx xx xx xx xxx xxxxxxxxxxxxx xxxx xxxx xxxx 			
+
+03.02.2020	03.02.2020	03.02.2020	20,00	HÖNÖ JÖPÖ TÖPPÖ          			Tilisiirto			gggggggggg 			
