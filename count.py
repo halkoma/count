@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 """
-Calculate how much each payee has payed from a .txt gotten from Nordea
+Calculate how much each payee has paid from a .txt gotten from Nordea
 """
 
 import re
@@ -32,7 +32,7 @@ try:
     with open(txt_file) as f:
         #extract date, amount and name from each line
         #if not person in data_people, add people to data_people
-        #if person in data_people, update the payed amount
+        #if person in data_people, update the paid amount
         #also maintain names-list making it easier to check if the names already exist
 
         #skip headers
