@@ -38,6 +38,9 @@ def parseFields(line):
     fields = re.split(r'\t+', line)
     date, amount, name = fields[2:5]
     amount = float(amount.replace(',', '.'))
+
+    day, month, year = [int(i) for i in date.split('.')]
+    date = datetime.date(year, month, day)
     return date, amount, name
 
 def add_or_edit_person(date, amount, name):
@@ -79,19 +82,16 @@ def main(argv):
                 #skip headers
                 next(f), next(f), next(f), next(f)
 
-                # get start_date from the first line
-                day, month, year = [int(i) for i in
-                                    re.split(r'\t+', f.readline())[0]
-                                    .split('.')]
-                start_date = datetime.date(year, month, day)
+                line = f.readline()
+                # this is done "manually" to get start_date from first line
+                date, amount, name = parseFields(line)
+                start_date = datetime.date(date.year, date.month, date.day)
+                add_or_edit_person(date, amount, name)
 
                 for line in f:
                     if not line.strip():
                         continue
                     date, amount, name = parseFields(line)
-                    # using these vars again since the former are used no more
-                    day, month, year = [int(i) for i in date.split('.')]
-                    date = datetime.date(year, month, day)
                     if date >= start_date:
                         end_date = date
                     add_or_edit_person(date, amount, name)
