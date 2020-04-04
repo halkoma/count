@@ -85,7 +85,7 @@ def main(argv):
                 line = f.readline()
                 # this is done "manually" to get start_date from first line
                 date, amount, name = parseFields(line)
-                start_date = datetime.date(date.year, date.month, date.day)
+                start_date = date
                 add_or_edit_person(date, amount, name)
 
                 for line in f:
