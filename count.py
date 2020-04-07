@@ -57,9 +57,9 @@ def add_or_edit_person(date, amount, name):
         data_people.append(person_new)
         names.append(name)
     else:
-        editPerson = next(filter(lambda person: person['name'] == name,
+        person_edit = next(filter(lambda person: person['name'] == name,
                                  data_people))
-        editPerson["amount"] += amount
+        person_edit["amount"] += amount
 
 def main(argv):
     global data_people
