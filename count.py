@@ -50,11 +50,11 @@ def add_or_edit_person(date, amount, name):
     if person in data_people, update the paid amount
     """
     if name not in names:
-        newPerson = {}
-        newPerson.update({"name": name})
-        newPerson.update({"amount": amount})
-        newPerson.update({"date": date})
-        data_people.append(newPerson)
+        person_new = {}
+        person_new.update({"name": name})
+        person_new.update({"amount": amount})
+        person_new.update({"date": date})
+        data_people.append(person_new)
         names.append(name)
     else:
         editPerson = next(filter(lambda person: person['name'] == name,
