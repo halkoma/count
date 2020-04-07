@@ -1,11 +1,11 @@
 # count.py
-Calculates how much each payee has paid from one or more Nordea .txt files.\
-Prints the file name before results.\
+Calculates how much each payee has paid from one or more Nordea .txt files.
+Prints the file name before results.
 
-Usage example:\
-`./count.py test_data* >> results.txt`\
-Using this with test_data.txt and test_data2.txt, \
-results.txt now contains\
+Usage example:
+`./count.py test_data* >> results.tt`
+Using this with test_data.txt and test_data2.txt, 
+results.txt now contains
 ```
 ----------------------------
 TEST_DATA2
@@ -35,6 +35,6 @@ HÖNÖ JÖPÖ TÖPPÖ             : 20.0
 ÄÄÄÄÄ ÄÄ ÄÄÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄ : 15.0
 ÅÄÖÅÄÖÅ ÅÄÖÅÄÖ ÅÄÖ ÅÄÖÅÄ    : 20.0
 ```
-\
-The correctness can be tested with correct_test_results.txt simply:\
+
+The correctness can be tested with correct_test_results.txt simply:
 `diff results.txt correct_test_results.txt`
